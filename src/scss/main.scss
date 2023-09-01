@@ -118,9 +118,8 @@
         .hero__secondsection {
             background-color: $verdelight-green;
             display: grid;
-            grid-template-columns: 1fr;
-            place-content: center;
-            width: 100%;
+            place-items: center;
+            height: 65.6rem;
         }
 
             .hero__secondsection-h2 {
@@ -151,7 +150,6 @@
             }
 
             .hero__secondsection-button {
-                text-transform: capitalize;
                 color: white;
                 background-color: $verdemoss-green;
                 font-family: $robotoRegular;
@@ -161,13 +159,22 @@
                 width: 18.4rem;
                 margin-bottom: 1rem;
                 padding-bottom: 0.7rem;
+                padding-top: 1rem;
+                border-radius: 6rem;
+            }
+
+            .hero__secondsection-button:first-letter {
+                text-transform: uppercase;
             }
 
             .hero__secondsection-navButton {
-                height: 4.5rem;
-                width: 4.5rem;
                 background-color: white;
                 border-radius: 50% 50%;
+                padding: 2.5rem;
+                height: 2.4rem;
+                width: 2.6rem;
+                transform: translateY(50%);
+                align-content: center;
             }
 }
 
@@ -195,7 +202,11 @@
 
         &__ul-second {
             margin-bottom: 3rem;
+        }
 
+        .footer__ul-link {
+            text-decoration: none;
+            color: white;
         }
 
         .footer__copyright {

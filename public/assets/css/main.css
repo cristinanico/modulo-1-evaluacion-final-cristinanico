@@ -106,9 +106,8 @@ html {
   .hero .hero__secondsection {
     background-color: #d9e4cc;
     display: grid;
-    grid-template-columns: 1fr;
-    place-content: center;
-    width: 100%; }
+    place-items: center;
+    height: 65.6rem; }
   .hero .hero__secondsection-h2 {
     text-transform: capitalize;
     font-size: 1.2rem;
@@ -129,7 +128,6 @@ html {
     font-size: 1.4rem;
     text-transform: capitalize; }
   .hero .hero__secondsection-button {
-    text-transform: capitalize;
     color: white;
     background-color: #6c933e;
     font-family: "Roboto";
@@ -138,12 +136,19 @@ html {
     height: 4.7rem;
     width: 18.4rem;
     margin-bottom: 1rem;
-    padding-bottom: 0.7rem; }
+    padding-bottom: 0.7rem;
+    padding-top: 1rem;
+    border-radius: 6rem; }
+  .hero .hero__secondsection-button:first-letter {
+    text-transform: uppercase; }
   .hero .hero__secondsection-navButton {
-    height: 4.5rem;
-    width: 4.5rem;
     background-color: white;
-    border-radius: 50% 50%; }
+    border-radius: 50% 50%;
+    padding: 2.5rem;
+    height: 2.4rem;
+    width: 2.6rem;
+    transform: translateY(50%);
+    align-content: center; }
 
 /*AQUÍ EMPIEZA EL FOOTER*/
 .footer {
@@ -163,6 +168,9 @@ html {
     margin-bottom: 2.8rem; }
   .footer__ul-second {
     margin-bottom: 3rem; }
+  .footer .footer__ul-link {
+    text-decoration: none;
+    color: white; }
   .footer .footer__copyright {
     font-family: "Roboto";
     font-size: 1.4rem;
