@@ -1,0 +1,149 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+.header {
+  display: flex;
+  background-image: url(../images/cover.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 55.2rem;
+  padding-left: 1.3rem; }
+  .header .header__nav-icon {
+    background-color: #6c933e;
+    width: 3.6rem;
+    height: 3.6rem; }
+  .header .header__hero {
+    width: 100vw;
+    color: white;
+    margin-top: 29.7rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+  .header .header__hero-h1 {
+    font-family: "Roboto Slab";
+    text-transform: uppercase;
+    font-size: 3rem;
+    width: 31.52rem; }
+  .header .header__hero-p {
+    font-family: "Roboto";
+    font-size: 1.6rem; }
+  .header .header__hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50% 50%; }
+
+.hero {
+  padding-left: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /*CORTE ENTRE SECCIONES*/ }
+  .hero .hero__firstsection-h2 {
+    text-transform: uppercase;
+    color: #6c933e;
+    font-family: "Roboto";
+    margin-top: 3.4rem;
+    font-size: 1.4rem; }
+  .hero .hero__firstsection-h3 {
+    font-family: "Roboto Slab";
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 2.2rem; }
+  .hero .hero__firstsection-h3-p {
+    font-family: "Roboto";
+    font-size: 1.8rem; }
+  .hero .hero__firstsection-button {
+    text-transform: capitalize;
+    font-family: "Roboto";
+    color: #6c933e;
+    border: 0.2rem solid #6c933e;
+    font-size: 2rem;
+    text-align: center;
+    width: 16rem;
+    height: 4.5rem;
+    margin-top: 4.2rem;
+    margin-bottom: 2.8rem; }
+  .hero .hero__secondsection {
+    background-color: #d9e4cc;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+    width: 100%; }
+  .hero .hero__secondsection-h2 {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-family: "Roboto Slab";
+    color: #626262; }
+  .hero .hero__secondsection-h3 {
+    text-transform: uppercase;
+    color: black;
+    font-family: "Roboto Slab";
+    font-size: 2rem;
+    margin-bottom: 1.2rem; }
+  .hero .hero__secondsection-images {
+    height: 12.4rem;
+    width: 11.4rem;
+    border-radius: 50% 50%; }
+  .hero .hero__secondsection-p {
+    font-family: "Roboto Slab";
+    font-size: 1.4rem;
+    text-transform: capitalize; }
+  .hero .hero__secondsection-button {
+    text-transform: capitalize;
+    color: white;
+    background-color: #6c933e;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 2rem;
+    height: 4.7rem;
+    width: 18.4rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.7rem; }
+  .hero .hero__secondsection-navButton {
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: white;
+    border-radius: 50% 50%; }
+
+/*AQUÍ EMPIEZA EL FOOTER*/
+.footer {
+  background-color: #4a4a4a;
+  color: white;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  padding-top: 6.2rem;
+  justify-content: center;
+  text-align: center; }
+  .footer__ul-first, .footer__ul-second {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    line-height: 3rem; }
+  .footer__ul-first {
+    margin-bottom: 2.8rem; }
+  .footer__ul-second {
+    margin-bottom: 3rem; }
+  .footer .footer__copyright {
+    font-family: "Roboto";
+    font-size: 1.4rem;
+    line-height: 3rem; }
+  .footer .footer__sign {
+    padding-bottom: 3.32rem;
+    font-family: "Roboto";
+    font-size: 1.4rem;
+    line-height: 3rem; }
+  .footer .footer__sign-icon {
+    color: #6c933e; }
+
+/*# sourceMappingURL=main.css.map */
