@@ -7,12 +7,22 @@
     background-size: cover;
     width: 100%;
     height: 55.2rem;
-    padding-left: 1.3rem;
+    background-position: right;
+}
+
+    .header__static {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
 
     .header__nav-icon {
         background-color: $verdemoss-green;
-        width: 3.6rem;
-        height: 3.6rem;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .header__hero{
@@ -30,11 +40,20 @@
             text-transform: uppercase;
             font-size: 3rem;
             width: 31.52rem;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex-direction: column;
         }
 
         .header__hero-p {
             font-family: $robotoRegular;
             font-size: 1.6rem;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            flex-direction: column;
         }
 
         .header__hero-button {
@@ -46,46 +65,48 @@
             height: 3.8rem;
             border-radius: 50% 50%;
         }
-}
+
 
 .hero {
-    padding-left: 1.3rem;
     display: flex;
     flex-direction: column;
     text-align: left;
 
-        .hero__firstsection-h2 {
-            text-transform: uppercase;
-            color: $verdemoss-green;
-            font-family: $robotoRegular;
-            margin-top: 3.4rem;
-            font-size: 1.4rem;
+        .hero__firstsection{
+            padding-left: 1.3rem;
         }
+            .hero__firstsection-h2 {
+                text-transform: uppercase;
+                color: $verdemoss-green;
+                font-family: $robotoRegular;
+                margin-top: 3.4rem;
+                font-size: 1.4rem;
+            }
 
-        .hero__firstsection-h3 {
-            font-family: $robotoSladBold;
-            text-transform: uppercase;
-            margin-bottom: 1rem;
-            font-size: 2.2rem;
-        }
+            .hero__firstsection-h3 {
+                font-family: $robotoSladBold;
+                text-transform: uppercase;
+                margin-bottom: 1rem;
+                font-size: 2.2rem;
+            }
 
-        .hero__firstsection-h3-p {
-            font-family: $robotoRegular;
-            font-size: 1.8rem;
-        }
+            .hero__firstsection-h3-p {
+                font-family: $robotoRegular;
+                font-size: 1.8rem;
+            }
 
-        .hero__firstsection-button {
-            text-transform: capitalize;
-            font-family: $robotoRegular;
-            color: $verdemoss-green;
-            border: 0.2rem solid $verdemoss-green;
-            font-size: 2rem;
-            text-align: center;
-            width: 16rem;
-            height: 4.5rem;
-            margin-top: 4.2rem;
-            margin-bottom: 2.8rem;
-        }
+            .hero__firstsection-button {
+                text-transform: capitalize;
+                font-family: $robotoRegular;
+                color: $verdemoss-green;
+                border: 0.2rem solid $verdemoss-green;
+                font-size: 2rem;
+                text-align: center;
+                width: 16rem;
+                height: 4.5rem;
+                margin-top: 4.2rem;
+                margin-bottom: 2.8rem;
+            }
 
         /*CORTE ENTRE SECCIONES*/
 
