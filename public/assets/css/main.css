@@ -35,7 +35,8 @@ html {
   text-align: center;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-right: 1rem; }
 
 .header__hero-h1 {
   font-family: "Roboto Slab";
@@ -49,11 +50,11 @@ html {
 
 .header__hero-p {
   font-family: "Roboto";
+  font-weight: 300;
   font-size: 1.6rem;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
   flex-direction: column; }
 
 .header__hero-button {
@@ -63,7 +64,8 @@ html {
   background-color: white;
   width: 3.8rem;
   height: 3.8rem;
-  border-radius: 50% 50%; }
+  border-radius: 50% 50%;
+  transform: translateY(150%) translateX(350%); }
 
 .hero {
   display: flex;
@@ -80,12 +82,14 @@ html {
     font-size: 1.4rem; }
   .hero .hero__firstsection-h3 {
     font-family: "Roboto Slab";
+    font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-size: 2.2rem; }
   .hero .hero__firstsection-h3-p {
     font-family: "Roboto";
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    font-weight: 300; }
   .hero .hero__firstsection-button {
     text-transform: capitalize;
     font-family: "Roboto";
@@ -96,7 +100,9 @@ html {
     width: 16rem;
     height: 4.5rem;
     margin-top: 4.2rem;
-    margin-bottom: 2.8rem; }
+    margin-bottom: 2.8rem;
+    padding-top: 1rem;
+    border-radius: 6rem; }
   .hero .hero__secondsection {
     background-color: #d9e4cc;
     display: grid;

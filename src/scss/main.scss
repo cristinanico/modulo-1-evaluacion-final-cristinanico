@@ -33,6 +33,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-right: 1rem;
     }
 
         .header__hero-h1 {
@@ -48,11 +49,11 @@
 
         .header__hero-p {
             font-family: $robotoRegular;
+            font-weight: 300;
             font-size: 1.6rem;
             justify-content: center;
             align-items: center;
             text-align: center;
-            width: 100%;
             flex-direction: column;
         }
 
@@ -64,8 +65,8 @@
             width: 3.8rem;
             height: 3.8rem;
             border-radius: 50% 50%;
+            transform: translateY(150%) translateX(350%);
         }
-
 
 .hero {
     display: flex;
@@ -85,6 +86,7 @@
 
             .hero__firstsection-h3 {
                 font-family: $robotoSladBold;
+                font-weight: 300;
                 text-transform: uppercase;
                 margin-bottom: 1rem;
                 font-size: 2.2rem;
@@ -93,6 +95,7 @@
             .hero__firstsection-h3-p {
                 font-family: $robotoRegular;
                 font-size: 1.8rem;
+                font-weight: 300;
             }
 
             .hero__firstsection-button {
@@ -106,6 +109,8 @@
                 height: 4.5rem;
                 margin-top: 4.2rem;
                 margin-bottom: 2.8rem;
+                padding-top: 1rem;
+                border-radius: 6rem;
             }
 
         /*CORTE ENTRE SECCIONES*/
