@@ -45,6 +45,12 @@
             align-items: center;
             width: 100%;
             flex-direction: column;
+
+            @media (min-width:768px) {
+                font-size: 7.5rem;
+                flex-direction: column;
+                width: 68.9rem;
+            }
         }
 
         .header__hero-p {
@@ -55,6 +61,12 @@
             align-items: center;
             text-align: center;
             flex-direction: column;
+
+            @media (min-width:768px) {
+                font-size: 2.4rem;
+                margin-left: 16.5rem;
+                margin-right: 22rem;
+            }
         }
 
         .header__hero-button {
@@ -67,6 +79,11 @@
             border-radius: 50% 50%;
             transform: translateY(150%) translateX(350%);
             margin-bottom: 5.8rem;
+
+            @media (min-width:768px) {
+                transform: translateX(800%);
+                margin-top: 2.2rem;
+            }
         }
 
 .hero {
