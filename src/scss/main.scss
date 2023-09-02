@@ -50,6 +50,7 @@
                 font-size: 7.5rem;
                 flex-direction: column;
                 width: 68.9rem;
+                margin-left: 7rem;
             }
         }
 
@@ -64,7 +65,7 @@
 
             @media (min-width:768px) {
                 font-size: 2.4rem;
-                margin-left: 16.5rem;
+                margin-left: 23rem;
                 margin-right: 22rem;
             }
         }
@@ -81,7 +82,7 @@
             margin-bottom: 5.8rem;
 
             @media (min-width:768px) {
-                transform: translateX(800%);
+                transform: translateX(950%);
                 margin-top: 2.2rem;
             }
         }
