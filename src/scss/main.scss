@@ -94,6 +94,11 @@
 
         .hero__firstsection{
             padding-left: 1.3rem;
+
+            @media (min-width:768px) {
+                margin-left: 4.3rem;
+                margin-right: 3.6rem;
+            }
         }
             .hero__firstsection-h2 {
                 text-transform: uppercase;
@@ -101,6 +106,11 @@
                 font-family: $robotoRegular;
                 margin-top: 3.4rem;
                 font-size: 1.4rem;
+
+                @media (min-width:768px) {
+                    margin-bottom: 1rem;
+                    font-size: 1.6rem;
+                }
             }
 
             .hero__firstsection-h3 {
@@ -109,12 +119,20 @@
                 text-transform: uppercase;
                 margin-bottom: 1rem;
                 font-size: 2.2rem;
+
+                @media (min-width:768px) {
+                    font-size: 3.2rem;
+                }
             }
 
             .hero__firstsection-h3-p {
                 font-family: $robotoRegular;
                 font-size: 1.8rem;
                 font-weight: 300;
+
+                @media (min-width:768px) {
+                    font-size: 2rem;
+                }
             }
 
             .hero__firstsection-button {
@@ -130,6 +148,10 @@
                 margin-bottom: 2.8rem;
                 padding-top: 1rem;
                 border-radius: 6rem;
+
+                @media (min-width:768px) {
+                    margin-bottom: 5.2rem;
+                }
             }
 
         /*CORTE ENTRE SECCIONES*/
@@ -139,6 +161,12 @@
             display: grid;
             place-items: center;
             height: 65.6rem;
+
+            @media (min-width:768px) {
+                height: 41rem;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+            }
         }
 
             .hero__secondsection-h2 {
@@ -146,6 +174,10 @@
                 font-size: 1.2rem;
                 font-family: $robotoSladBold;
                 color: #626262;
+
+                @media (min-width:768px) {
+                    grid-area: 1 / 2 / 2 / 3 ;
+                }
             }
 
             .hero__secondsection-h3 {
@@ -154,18 +186,30 @@
                 font-family: $robotoSladBold;
                 font-size: 2rem;
                 margin-bottom: 1.2rem;
+
+                @media (min-width:768px) {
+                    grid-area: 2 / 2 / 2 / 3 ;
+                }
             }
 
             .hero__secondsection-images {
                 height: 12.4rem;
                 width: 11.4rem;
                 border-radius: 50% 50%;
+
+                @media (min-width:768px) {
+                    grid-area: 3 / 3 / 3 / 3 ;
+                }
             }
 
             .hero__secondsection-p {
                 font-family: $robotoSladBold;
                 font-size: 1.4rem;
                 text-transform: capitalize;
+
+                @media (min-width:768px) {
+                    grid-area: 3 / 3 / 3 / 3 ;
+                }
             }
 
             .hero__secondsection-button {
@@ -180,6 +224,10 @@
                 padding-bottom: 0.7rem;
                 padding-top: 1rem;
                 border-radius: 6rem;
+
+                @media (min-width:768px) {
+                    grid-area: 4 / 2 / 2 / 4 ;
+                }
             }
 
             .hero__secondsection-button:first-letter {
@@ -208,19 +256,34 @@
         padding-top: 6.2rem;
         justify-content: center;
         text-align: center;
+        list-style: none;
+
+        @media (min-width:768px) {
+            flex-direction: row-reverse;
+            justify-content: space-around;
+        }
         
         &__ul-first, &__ul-second {
             font-size: 1.6rem;
             text-transform: uppercase;
             line-height: 3rem;
+            list-style: none;
         }
 
         &__ul-first {
             margin-bottom: 2.8rem;
+
+            @media (min-width:768px) {
+                order: 2;
+            }
         }
 
         &__ul-second {
             margin-bottom: 3rem;
+
+            @media (min-width:768px) {
+                order: 1;
+            }
         }
 
         .footer__ul-link {
@@ -245,4 +308,11 @@
             color: $verdemoss-green;
         }
 
+        .footer__container{
+            flex-direction: column;
+
+            @media (min-width:768px) {
+                order: 3;
+            }
+        }
     }

@@ -90,22 +90,36 @@ html {
   /*CORTE ENTRE SECCIONES*/ }
   .hero .hero__firstsection {
     padding-left: 1.3rem; }
+    @media (min-width: 768px) {
+      .hero .hero__firstsection {
+        margin-left: 4.3rem;
+        margin-right: 3.6rem; } }
   .hero .hero__firstsection-h2 {
     text-transform: uppercase;
     color: #6c933e;
     font-family: "Roboto";
     margin-top: 3.4rem;
     font-size: 1.4rem; }
+    @media (min-width: 768px) {
+      .hero .hero__firstsection-h2 {
+        margin-bottom: 1rem;
+        font-size: 1.6rem; } }
   .hero .hero__firstsection-h3 {
     font-family: "Roboto Slab";
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-size: 2.2rem; }
+    @media (min-width: 768px) {
+      .hero .hero__firstsection-h3 {
+        font-size: 3.2rem; } }
   .hero .hero__firstsection-h3-p {
     font-family: "Roboto";
     font-size: 1.8rem;
     font-weight: 300; }
+    @media (min-width: 768px) {
+      .hero .hero__firstsection-h3-p {
+        font-size: 2rem; } }
   .hero .hero__firstsection-button {
     text-transform: capitalize;
     font-family: "Roboto";
@@ -119,30 +133,50 @@ html {
     margin-bottom: 2.8rem;
     padding-top: 1rem;
     border-radius: 6rem; }
+    @media (min-width: 768px) {
+      .hero .hero__firstsection-button {
+        margin-bottom: 5.2rem; } }
   .hero .hero__secondsection {
     background-color: #d9e4cc;
     display: grid;
     place-items: center;
     height: 65.6rem; }
+    @media (min-width: 768px) {
+      .hero .hero__secondsection {
+        height: 41rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr; } }
   .hero .hero__secondsection-h2 {
     text-transform: capitalize;
     font-size: 1.2rem;
     font-family: "Roboto Slab";
     color: #626262; }
+    @media (min-width: 768px) {
+      .hero .hero__secondsection-h2 {
+        grid-area: 1 / 2 / 2 / 3; } }
   .hero .hero__secondsection-h3 {
     text-transform: uppercase;
     color: black;
     font-family: "Roboto Slab";
     font-size: 2rem;
     margin-bottom: 1.2rem; }
+    @media (min-width: 768px) {
+      .hero .hero__secondsection-h3 {
+        grid-area: 2 / 2 / 2 / 3; } }
   .hero .hero__secondsection-images {
     height: 12.4rem;
     width: 11.4rem;
     border-radius: 50% 50%; }
+    @media (min-width: 768px) {
+      .hero .hero__secondsection-images {
+        grid-area: 3 / 3 / 3 / 3; } }
   .hero .hero__secondsection-p {
     font-family: "Roboto Slab";
     font-size: 1.4rem;
     text-transform: capitalize; }
+    @media (min-width: 768px) {
+      .hero .hero__secondsection-p {
+        grid-area: 3 / 3 / 3 / 3; } }
   .hero .hero__secondsection-button {
     color: white;
     background-color: #6c933e;
@@ -155,6 +189,9 @@ html {
     padding-bottom: 0.7rem;
     padding-top: 1rem;
     border-radius: 6rem; }
+    @media (min-width: 768px) {
+      .hero .hero__secondsection-button {
+        grid-area: 4 / 2 / 2 / 4; } }
   .hero .hero__secondsection-button:first-letter {
     text-transform: uppercase; }
   .hero .hero__secondsection-navButton {
@@ -175,15 +212,27 @@ html {
   flex-direction: column;
   padding-top: 6.2rem;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  list-style: none; }
+  @media (min-width: 768px) {
+    .footer {
+      flex-direction: row-reverse;
+      justify-content: space-around; } }
   .footer__ul-first, .footer__ul-second {
     font-size: 1.6rem;
     text-transform: uppercase;
-    line-height: 3rem; }
+    line-height: 3rem;
+    list-style: none; }
   .footer__ul-first {
     margin-bottom: 2.8rem; }
+    @media (min-width: 768px) {
+      .footer__ul-first {
+        order: 2; } }
   .footer__ul-second {
     margin-bottom: 3rem; }
+    @media (min-width: 768px) {
+      .footer__ul-second {
+        order: 1; } }
   .footer .footer__ul-link {
     text-decoration: none;
     color: white; }
@@ -198,5 +247,10 @@ html {
     line-height: 3rem; }
   .footer .footer__sign-icon {
     color: #6c933e; }
+  .footer .footer__container {
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .footer .footer__container {
+        order: 3; } }
 
 /*# sourceMappingURL=main.css.map */
