@@ -215,6 +215,9 @@ html {
         transform: translateX(215%); } }
   .hero__secondsection .hero__secondsection-nav .hero__secondsection-button:first-letter {
     text-transform: uppercase; }
+  .hero__secondsection .hero__secondsection-nav .hero__secondsection-button:hover {
+    background-color: white;
+    color: #6c933e; }
   .hero__secondsection .hero__secondsection-nav .hero__secondsection-navButton {
     background-color: white;
     border-radius: 10rem;

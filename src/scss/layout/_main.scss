@@ -69,6 +69,7 @@
                     margin-bottom: 5.2rem;
                 }
             }
+            
         }
 
         /*CORTE ENTRE SECCIONES*/
@@ -166,6 +167,11 @@
 
             .hero__secondsection-button:first-letter {
                 text-transform: uppercase;
+            }
+
+            .hero__secondsection-button:hover {
+                background-color: white;
+                color: $verdemoss-green;
             }
 
             .hero__secondsection-navButton {
