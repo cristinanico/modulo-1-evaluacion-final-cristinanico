@@ -44,13 +44,14 @@
             align-items: center;
             width: 100%;
             flex-direction: column;
-            margin-top: 7rem;
+            margin-top: 6rem;
 
             @media (min-width:768px) {
                 font-size: 7.5rem;
                 flex-direction: column;
                 width: 68.9rem;
                 margin-left: 7rem;
+                margin-top: 1rem;
             }
         }
 
@@ -154,64 +155,70 @@
                     margin-bottom: 5.2rem;
                 }
             }
+        }
 
         /*CORTE ENTRE SECCIONES*/
 
-        .hero__secondsection {
-            background-color: $verdelight-green;
-            display: grid;
-            place-items: center;
-            height: 65.6rem;
+.hero__secondsection {
+    
+    background-color: $verdelight-green;
 
-            @media (min-width:768px) {
-                height: 41rem;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-template-rows: 1fr 1fr 1fr 1fr;
-            }
-        }
+        .hero__secondsection-tittles {
+            text-align: center;
 
             .hero__secondsection-h2 {
-                text-transform: capitalize;
-                font-size: 1.2rem;
                 font-family: $robotoSladBold;
-                color: #626262;
+                color: $verdegreyish-brown;
+                font-size: 1.2rem;
+                margin-top: 2.7rem;
+            } 
 
-                @media (min-width:768px) {
-                    grid-area: 1 / 2 / 2 / 3 ;
-                }
+            .hero__secondsection-h2::first-letter{
+                text-transform: uppercase;
             }
 
             .hero__secondsection-h3 {
-                text-transform: uppercase;
-                color: black;
                 font-family: $robotoSladBold;
                 font-size: 2rem;
-                margin-bottom: 1.2rem;
+                line-height: 3rem;
+                text-transform: uppercase;
+                margin-bottom: 1rem;
+            }
+        }
 
-                @media (min-width:768px) {
-                    grid-area: 2 / 2 / 2 / 3 ;
-                }
+        .hero__secondsection-grid {
+            display: grid;
+            grid-template-columns: 15rem;
+            grid-template-rows: 15rem 15rem 15rem;
+            justify-content: center;
+            justify-items: center;
+            text-align: center;
+            gap: 1.5rem;
+
+            @media (min-width:768px) {
+                grid-template-columns: 15rem 15rem 15rem;
+                grid-template-rows: 15rem;
+                justify-content: center;
+                justify-items: center;
+                text-align: center;
+                gap: 1.5rem;
             }
 
-            .hero__secondsection-images {
-                height: 12.4rem;
-                width: 11.4rem;
-                border-radius: 50% 50%;
-
-                @media (min-width:768px) {
-                    grid-area: 3 / 3 / 3 / 3 ;
-                }
+            .grid__images {
+                width: 11.5rem;
+                border-radius: 50%;
             }
 
-            .hero__secondsection-p {
-                font-family: $robotoSladBold;
-                font-size: 1.4rem;
+            .grid__p {
                 text-transform: capitalize;
-
-                @media (min-width:768px) {
-                    grid-area: 3 / 3 / 3 / 3 ;
-                }
+                font-family: $robotoSladBold;
+                color: black;
+                font-size: 1.4rem;
+                line-height: 3rem;
             }
+        }
+
+        .hero__secondsection-nav{
 
             .hero__secondsection-button {
                 color: white;
@@ -225,9 +232,16 @@
                 padding-bottom: 0.7rem;
                 padding-top: 1rem;
                 border-radius: 6rem;
+                transform: translateX(35%);
 
                 @media (min-width:768px) {
-                    grid-area: 4 / 2 / 2 / 4 ;
+                    display: inline-block;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 2.9rem;
+                    margin-right: 2.9rem;
+                    transform: translateX(150%);
+                    margin-top: 1rem;
                 }
             }
 
@@ -236,16 +250,22 @@
             }
 
             .hero__secondsection-navButton {
-                background-color: white;
-                border-radius: 50% 50%;
-                padding: 2.5rem;
-                height: 2.4rem;
-                width: 2.6rem;
-                transform: translateY(50%);
-                align-content: center;
-            }
-}
+              background-color: white;
+              border-radius: 10rem;
+              width: 4.5rem;
+              height: 4.5rem;
+              padding: 0.3rem;
+              transform: translateX(300%);
+              padding: 12px;
 
+              @media (min-width:786px) {
+              
+              }
+            }
+
+        }
+
+    }
     /*AQUÍ EMPIEZA EL FOOTER*/
 
     .footer {
