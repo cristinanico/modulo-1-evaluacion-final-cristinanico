@@ -12,6 +12,8 @@ Esto es lo que tienes que saber:
 - Dentro de esas carpetas el código está indentado y bien estructurado. He utilizado partials para que podais ver mejor el esqueleto y las partes de esta web. 
 - El CSS también está dividido en partials y la hoja "reset" y las variables, tienen su propia carpeta; enlazada al main CSS, por supuesto.
 
+La mayoría de la web está maquetada con Flex, excepto la parte de "Vuelta al cole", ahí he usado CSS grid. También tiene enlaces funcionales en "la hamburguesa" y en las listas del footer, que os llevarán a la web de Adalab. Los botones direccionales (flechas) están enlazados a otras partes de la propia web para facilitar la navegabilidad. Como **BONUS**, si pasais el mouse por el botón "Empezar ahora", vereis un pequeño cambio. 
+
 > **NOTA:** Hay puntos a mejorar, por supuesto, pero después de dos semanas de trabajo estoy satisfecha de ver que el aprendizaje va dando sus frutos. Seguiré trabajando en ella.
 
 La he hecho yo sola, si, pero con la estimable ayuda de las profes de Adalab; que cuando necesitaba un poco de perspectiva, me la han dado. 
