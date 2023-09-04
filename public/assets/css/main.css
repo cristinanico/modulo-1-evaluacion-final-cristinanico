@@ -241,6 +241,25 @@ html {
   justify-content: center;
   text-align: center;
   list-style: none; }
+  .footer .hero__secondsection-navButton {
+    display: flex;
+    background-color: white;
+    border-radius: 10rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 0.3rem;
+    transform: translateY(50%);
+    padding: 12px;
+    align-items: center;
+    margin: auto; }
+    @media (min-width: 768px) {
+      .footer .hero__secondsection-navButton {
+        margin-left: 375px;
+        transform: translateY(50%); } }
+    @media (min-width: 1024px) {
+      .footer .hero__secondsection-navButton {
+        margin-left: 490px;
+        transform: translateY(50%); } }
   @media (min-width: 768px) {
     .footer {
       flex-direction: row-reverse;
